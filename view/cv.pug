@@ -1,0 +1,73 @@
+head
+    style
+        include ./cv.css
+    //- link(rel='stylesheet', href='cv.css')
+    title User Data
+form(method='GET' action='submit_form')
+  a.back(href='signup.php') back&lt;&lt;
+  h1 Please! Enter your data...
+  h2
+    | Address
+    h2
+      label(for='name') Name:
+      input#username(type='text' name='person' placeholder='First,Last')
+      label(for='contact') Contact Number:
+      input#contact(type='digit' name='number' placeholder='+923002634794')
+      div
+      label(for='email') Email:
+      input#email(type='email' name='email' placeholder='abc@gmail.com')
+      label(for='cnic') CNIC:
+      input#cnic(type='digit' name='cnic' placeholder='-----_-------_-')
+      label(for='address') Address:
+      input#address(type='text' name='address')
+      h2
+        | Picture
+        h2
+          label Photo
+          .image
+            input(type='file' name='image')
+          h2
+            | Gender
+            h2
+              input#male(type='radio' checked='' name='gender' value='Male')
+              label.male(for='male') Male 
+              input#female(type='radio' name='gender' value='Female')
+              label.female(for='female') Female
+              h2
+                | Date of Birth
+                h2
+                  label(for='dob') DOB
+                  input#dob(type='date' name='dob' placeholder='3.5')
+                  h2
+                    | Education
+                    h2
+                      h3 Matriculation
+                      label(for='marks') Institution*
+                      input#instit1(type='text' name='instit1')
+                      label(for='marks') Matric Marks*
+                      input#marks1(type='digit' name='marks1')
+                      label(for='percentage') Percentage*
+                      input#percentage1(type='digit' name='percentage1')
+                      label(for='y') Year*
+                      input#year1(type='digit' name='year1')
+                      label(for='b') Board*
+                      input#board1(type='text' name='board1')
+                      h3 Intermediate
+                      label(for='institute') Institution*
+                      input#instit2(type='text' name='instit2')
+                      label(for='intermediate marks') Intermediate Marks*
+                      input#marks2(type='digit' name='marks2')
+                      label(for='percentage') Percentage*
+                      input#percentage2(type='digit' name='percentage2')
+                      label(for='year') Year*
+                      input#year2(type='digit' name='year2')
+                      label(for='board') Board*
+                      input#board2(type='text' name='board2')
+                      h2
+                        |Skills 
+                        h2 
+                      input#skills(type='text' name='skills')
+                      input#submit.btn(type='submit' name='id' value='Submit Form')
+                      input.btn1(type='reset' name='id' value='Reset')
+                            
+

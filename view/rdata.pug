@@ -1,0 +1,43 @@
+html 
+    head 
+        title CV 
+        style 
+            include ./cvoutput.css
+    body
+        div 
+            h1.top User Information
+             h1.name #{name}
+                h2.contact Contact: #{contact}
+                h2.cnic CNIC: #{cnic}
+                h2.email Email: #{email}
+                h2.dob Date of Birth: #{datebirth}
+                h2.metric Metric Education  
+                    table
+                        tr
+                            th School
+                            th Marks
+                            th Percentage
+                            th Year
+                            th Board
+                        tr
+                            td #{institution}
+                            td #{metricmarks}
+                            td #{percentage}
+                            td #{year}
+                            td #{board}
+                h2.inter Intermediate Education 
+                   table
+                    tr
+                        th College
+                        th Marks
+                        th Percentage
+                        th Year
+                        th Board
+                    tr
+                        td #{institution}
+                        td #{intermarks}
+                        td #{percentage}
+                        td #{year}
+                        td #{board}
+                h2.skills Skills: #{skills}
+         

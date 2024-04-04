@@ -1,0 +1,42 @@
+div{
+ background-color: grey;   
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-top: 3%;
+}
+.top{
+    margin-left: 35%;
+    color:crimson
+    
+}
+.name{
+    margin-left: 5%;
+}
+.contact{
+    margin-left: 5%;
+}
+.email{
+    margin-left: 5%;
+}
+.cnic{
+    margin-left: 5%;
+}
+.dob{
+    margin-left: 5%;
+}
+.skills{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.inter{
+    margin-left: 5%;
+}
+.metric{
+    margin-left: 5%;
+}
+table, th, td {
+    border: 1px solid black;
+    /* margin-left: 5%; */
+    border-collapse: collapse;
+  }
